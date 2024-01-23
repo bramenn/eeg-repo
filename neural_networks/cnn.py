@@ -22,6 +22,7 @@ una tasa de paso de 2 y activación ReLU. Esto aumenta aún más las dimensiones
 La última capa convolucional tiene 1 filtro, un tamaño de kernel de (3, 3), 
 activación sigmoide y relleno ('same'). Esta capa produce la salida del modelo 
 con un solo canal (probablemente para reconstruir la imagen original).
+
 Compilación:
 
 El modelo se compila utilizando el optimizador Adam y la función de pérdida de entropía 
