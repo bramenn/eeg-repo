@@ -21,7 +21,7 @@ La segunda capa deconvolucional tiene 64 filtros, un tamaño de kernel de (3, 3)
 una tasa de paso de 2 y activación ReLU. Esto aumenta aún más las dimensiones espaciales.
 La última capa convolucional tiene 1 filtro, un tamaño de kernel de (3, 3), 
 activación sigmoide y relleno ('same'). Esta capa produce la salida del modelo 
-con un solo canal (probablemente para reconstruir la imagen original).
+con un solo canal.
 
 Compilación:
 
